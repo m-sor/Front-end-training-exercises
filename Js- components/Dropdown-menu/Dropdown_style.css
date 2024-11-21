@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Ultra&display=swap');
+
+
+.lateef-extralight {
+    font-family: "Lateef", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .lateef-light {
+    font-family: "Lateef", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lateef-regular {
+    font-family: "Lateef", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lateef-medium {
+    font-family: "Lateef", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .lateef-semibold {
+    font-family: "Lateef", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .lateef-bold {
+    font-family: "Lateef", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lateef-extrabold {
+    font-family: "Lateef", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+ /* ----------------------------------------------*/
+ *{
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lateef", serif;
+    font-size: larger;
+
+ }
+
+body{
+   background: #e3f2fd;
+
+}
+.select-menu {
+   width: 380px;
+   margin: 150px auto;
+
+
+ }
+ .select-menu .select-btn{
+  display: flex;
+  height: 55px;
+  background:#fff ;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgb(0,0,0,0.1);
+
+ }
+ .select-btn{
+  font-size:18px;
+  transition: 3s;
+  }
+  .select-menu.active .select-btn i{
+   transform: rotate(-180deg);
+ }
+  .select-menu .options{
+     position: relative;
+     padding: 20px;
+     margin-top: 5px;
+     border-radius: 8px;
+     background-color: #fff;
+     box-shadow: 0 0 3px rgb(0,0,0,0.1);
+     display: none;
+  }
+
+  .options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 12px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+  }
+  .select-menu.active .options{
+     display: block;
+  }
+  .options .option:hover {
+    background: rgb(201, 173, 173);
+
+  }
+  .option i {
+    font-size: 25px;
+    margin-right: 12px;
+
+  }
+.option .option-text{
+  font-size: 25px;
+  color:black;
+  
+}
